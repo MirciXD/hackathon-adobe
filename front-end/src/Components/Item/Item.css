@@ -1,0 +1,51 @@
+.itemContainer{
+    background-color: #2CA163;
+    width: 30vw;
+    height: 30vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.itemName{
+    width: 20vw;
+    background-color: #EE964B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    border-radius: 10rem;
+    font-weight: bold;
+}
+
+.itemPrice{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-weight: bold;
+}
+
+.buyBtnContainer{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.buyBtn{
+    background-color: #EE964B;
+    border-radius: 60vh;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.buyBtn:hover{
+    background-color: #424242;
+    color: #EE964B;
+}

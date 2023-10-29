@@ -1,0 +1,119 @@
+.homePage{
+    background-color: #EAEFBD;
+    height: 100vh;
+}
+
+.about{
+    width: 60vw;
+    border: none;
+    box-shadow: -24px 24px 15px -3px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    background-color: #2CA163;
+    padding: 2rem;
+}
+
+
+.userInfo{
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    width: auto;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    background-color: #2CA163;
+    color:#3a3a3a;
+}
+
+.userContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2rem;
+}
+
+.userInfoName{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.userInfoPFP{
+    height: 3rem;
+}
+
+.aboutText{
+    font-size: 1.3rem;
+    color:#3a3a3a;
+    font-weight: 500;
+}
+
+.aboutTitle{
+    color:#1E1E1E;
+
+}
+
+.containerAflaMaiMulte{
+    display: flex;
+    justify-content: end;
+}
+
+.aflaMaiMulte{
+    display: flex;
+    background-color: #FFAA6E;
+    width: 10vw;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnComandaAcum{
+    all:unset;
+    font-size: 3rem;
+    font-weight: bold;
+    border:none ;
+    background-color:#FFAA6E ;
+    border-radius: 32px;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    color:#1E1E1E;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnComandaAcum:hover{
+    transform: scale(1.1);
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.modalContainer{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 83vw;
+    position: absolute;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.326);
+}
+
+.modal{
+    width: 40vw;
+    height: 30vh;
+    background-color: #2CA163;
+    padding: 4rem;
+    border-radius: 25px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hackathon-adobe-rush-hour",
+  "version": "1.0.0",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/MrMorningstarL/hackathon-adobe-rush-hour.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/MrMorningstarL/hackathon-adobe-rush-hour/issues"
+  },
+  "homepage": "https://gitlab.com/MrMorningstarL/hackathon-adobe-rush-hour#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "connection": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.6.2",
+    "router": "^1.3.8",
+    "sequelize": "^6.33.0"
+  }
+}

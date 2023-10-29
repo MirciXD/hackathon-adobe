@@ -1,0 +1,10 @@
+.tagItem{
+    background-color: #EE964B;
+    height: 4vh;
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}

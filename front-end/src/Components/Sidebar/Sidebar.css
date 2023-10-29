@@ -1,0 +1,67 @@
+.outlet{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EAEFBD;
+}
+
+.sidebarContainer{
+    width: 20vw;
+    height: auto;
+    background-color: #2CA163;
+    position: sticky;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.logo{
+    height: 15vw;
+    padding: 0.4rem;
+}
+
+.linkContainer{
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link{
+all:unset;
+font-size: 2.5vw;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+align-items: center;  
+width: 90%;
+justify-content:space-evenly;  
+border-radius: 20px;
+transition: 0.2s;
+cursor: pointer;
+}
+
+.link:hover{
+    
+    background-color: #ffffff;
+    color: #2CA163;
+}
+
+.rushHourText{
+    font-size:3vw;
+    font-weight: bold;
+}
+
+.navigationLinks{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
